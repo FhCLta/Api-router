@@ -1,0 +1,135 @@
+/* .movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .movie {
+    position: relative; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+  }
+  .movie img {
+    width: auto;
+    height: auto;
+    max-height: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .movie button {
+    display: block;
+    margin: 0 auto;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .movie button:hover {
+    background-color: #ff0a16;
+  }
+  .favorite-button {
+    position: absolute;        
+    top: 10px;    
+    right: 10px; 
+    background-color: transparent; 
+    border: solid; 
+    color: #e50914; 
+    cursor: pointer;
+    font-size: 15px; 
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+
+.favorite {
+  color: rgb(221, 218, 201);
+}
+
+
+.favorite-button.selected {
+  color: gold; 
+}
+
+.star {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .star.active {
+    color: gold;
+  } */
+  .movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .movie {
+    position: relative; 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+  }
+  .movie img {
+    width: auto;
+    height: auto;
+    max-height: 250px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .movie button {
+    display: block;
+    margin: 0 auto;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .movie button:hover {
+    background-color: #ff0a16;
+  }
+.favorite-button {
+    position: absolute;        
+    top: 10px;    
+    right: 10px; 
+    background-color: transparent; 
+    border: solid; 
+    color: #e50914; 
+    cursor: pointer;
+    font-size: 15px; 
+    cursor: pointer;
+    transition: color 0.3s; 
+}
+
+.favorite {
+  color: rgb(221, 218, 201);
+}
+   
